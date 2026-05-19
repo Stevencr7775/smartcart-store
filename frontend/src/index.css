@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Premium Interesting Light Theme (Aura/Sky vibe) */
+  --color-primary: #6366f1;
+  --color-primary-hover: #4f46e5;
+  --color-primary-light: #eef2ff;
+  --color-primary-transparent: rgba(99, 102, 241, 0.1);
+  
+  --color-secondary: #0ea5e9;
+  --color-bg-main: #f0f4ff;
+  --color-bg-card: rgba(255, 255, 255, 0.85);
+  --color-bg-subtle: #e0e7ff;
+  --color-text-main: #1e1b4b;
+  --color-text-muted: #4338ca;
+  --color-text-subtle: #6366f1;
+  --color-text-inverse: #ffffff;
+  
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.08);
+  
+  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #0ea5e9 100%);
+  --aura-bg: radial-gradient(circle at 0% 0%, #e0e7ff 0%, #f0f4ff 100%);
+  
+  --spacing-1: 0.25rem; --spacing-2: 0.5rem; --spacing-3: 0.75rem; --spacing-4: 1rem;
+  --spacing-6: 1.5rem; --spacing-8: 2rem; --spacing-12: 3rem; --spacing-16: 4rem;
+  --radius-sm: 0.375rem; --radius-md: 0.5rem; --radius-lg: 0.75rem; --radius-xl: 1rem;
+  --radius-2xl: 1.5rem; --radius-full: 9999px;
+  --font-family-body: "Inter", sans-serif;
+  --font-family-heading: "Outfit", sans-serif;
+  --transition-fast: 150ms ease; --transition-normal: 300ms ease; --transition-slow: 500ms ease;
+  --transition-bounce: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+[data-theme="dark"] {
+  /* Space Galaxy Dark Theme */
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-primary-light: rgba(59, 130, 246, 0.2);
+  --color-primary-transparent: rgba(59, 130, 246, 0.15);
+  --color-secondary: #8b5cf6;
+  --color-bg-main: #020617;
+  --color-bg-card: rgba(15, 23, 42, 0.6);
+  --color-bg-subtle: rgba(30, 41, 59, 0.3);
+  --color-text-main: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --glass-bg: rgba(2, 6, 23, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  --galaxy-bg: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&q=80&w=2000");
+}
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-body);
+  background-color: var(--color-bg-main);
+  background-image: var(--aura-bg);
+  color: var(--color-text-main);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+[data-theme="dark"] body {
+  background-image: linear-gradient(rgba(2, 6, 23, 0.85), rgba(2, 6, 23, 0.85)), var(--galaxy-bg) !important;
+}
+
+[data-theme="dark"] body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background-image: 
+    radial-gradient(1px 1px at 20px 30px, #fff, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 140px 170px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 50px 160px, #ddd, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 290px 40px, #fff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 330px 280px, #fff, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 400px 400px;
+  opacity: 0.4;
+  z-index: -1;
+  animation: starsTwinkle 4s infinite alternate;
+}
+
+@keyframes starsTwinkle {
+  from { opacity: 0.3; }
+  to { opacity: 0.6; }
+}
+
+.main-content {
+  flex: 1;
+  padding: var(--spacing-8) var(--spacing-4);
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: var(--radius-xl);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-family-heading);
+  font-weight: 800;
+}
+
+.text-gradient {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+  transition: all var(--transition-bounce);
+}
+
+.btn-primary {
+  background: var(--gradient-primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 4px 15px var(--color-primary-transparent);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px var(--color-primary-transparent);
+}
