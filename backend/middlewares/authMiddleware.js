@@ -1,3 +1,4 @@
+const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
 const { Admin } = require('../models');
 
@@ -10,9 +11,10 @@ const protect = async (req, res, next) => {
 
             const decoded = jwt.verify(token, process.env.JWT_SECRET || 'fallback_secret');
 
-            req.user = await Admin.findByPk(decoded.id, {
-                attributes: { exclude: ['password'] }
-            });
+            if (!mongoose.Types.ObjectId.isValid(decoded.id)) {
+                return res.status(401).json({ message: 'Not authorized, invalid token identifier' });
+            }
+            req.user = await Admin.findById(decoded.id).select('-password');
 
             next();
         } catch (error) {

@@ -9,6 +9,11 @@ const orderItemSchema = new mongoose.Schema({
 const orderSchema = new mongoose.Schema({
     userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
     totalAmount: { type: Number, required: true },
+    totalPrice: { type: Number },
+    shippingAddress: { type: String },
+    paymentMethod: { type: String },
+    taxPrice: { type: Number },
+    shippingPrice: { type: Number },
     status: { type: String, default: 'Pending' },
     stripeSessionId: { type: String },
     items: [orderItemSchema]

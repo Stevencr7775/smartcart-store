@@ -25,6 +25,7 @@ const addOrderItems = async (req, res) => {
             taxPrice,
             shippingPrice,
             totalPrice,
+            totalAmount: totalPrice,
             status: 'Pending',
             items: formattedItems
         });

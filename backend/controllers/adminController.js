@@ -9,13 +9,15 @@ const getProducts = async (req, res) => {
 
 const updateProduct = async (req, res) => {
     try {
-        const { name, category, price, description, imageUrl } = req.body;
+        const { name, category, price, description, imageUrl, brand, stock } = req.body;
         const product = await Product.findById(req.params.id);
 
         if (product) {
             product.name = name || product.name;
             product.category = category || product.category;
-            product.price = price || product.price;
+            product.brand = brand || product.brand;
+            product.price = price !== undefined ? Number(price) : product.price;
+            product.stock = stock !== undefined ? Number(stock) : product.stock;
             product.description = description || product.description;
             product.imageUrl = imageUrl || product.imageUrl;
             const updatedProduct = await product.save();
@@ -74,11 +76,13 @@ const getAnalytics = async (req, res) => {
 
 const createProduct = async (req, res) => {
     try {
-        const { name, category, price, description, imageUrl } = req.body;
+        const { name, category, price, description, imageUrl, brand, stock } = req.body;
         const product = await Product.create({
             name: name || 'New Product',
             category: category || 'General',
+            brand: brand || 'Generic',
             price: price || 0,
+            stock: stock !== undefined ? Number(stock) : 100,
             description: description || '',
             imageUrl: imageUrl || ''
         });

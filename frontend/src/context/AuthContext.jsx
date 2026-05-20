@@ -13,7 +13,13 @@ export const AuthProvider = ({ children }) => {
     try {
       const storedUser = localStorage.getItem('userInfo');
       if (storedUser && storedUser !== 'undefined') {
-        setUser(JSON.parse(storedUser));
+        const parsed = JSON.parse(storedUser);
+        if (parsed && (typeof parsed.id === 'number' || (parsed.id && String(parsed.id).length < 10))) {
+          localStorage.removeItem('userInfo');
+          setUser(null);
+        } else {
+          setUser(parsed);
+        }
       }
     } catch (e) {
       console.error('Failed to parse user info', e);
