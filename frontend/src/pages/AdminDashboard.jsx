@@ -1,3 +1,4 @@
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:5001/api';
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
@@ -38,13 +39,13 @@ const AdminDashboard = () => {
       const headers = { Authorization: 'Bearer ' + user.token };
       
       if (activeTab === 'analytics') {
-          const res = await fetch('http://127.0.0.1:5001/api/admin/analytics', { headers });
+          const res = await fetch(API_URL + "/admin/analytics", { headers });
           const data = await res.json();
           setStats(data.stats);
           setTransactions(data.transactions || []);
           setInsight(data.insight);
       } else if (activeTab === 'products') {
-          const res = await fetch('http://127.0.0.1:5001/api/admin/products', { headers });
+          const res = await fetch(API_URL + "/admin/products", { headers });
           const data = await res.json();
           setProducts(data || []);
       } else if (activeTab === 'orders') {
@@ -92,7 +93,7 @@ const AdminDashboard = () => {
   const handleDeleteProduct = async (productId) => {
     if (!window.confirm("Are you sure you want to delete this product?")) return;
     try {
-      const res = await fetch('http://127.0.0.1:5001/api/admin/products/' + productId, {
+      const res = await fetch(API_URL + "/admin/products/" + productId, {
         method: 'DELETE',
         headers: { Authorization: 'Bearer ' + user.token }
       });
@@ -111,8 +112,8 @@ const AdminDashboard = () => {
     e.preventDefault();
     try {
       const url = editingProduct 
-        ? 'http://127.0.0.1:5001/api/admin/products/' + editingProduct.id 
-        : 'http://127.0.0.1:5001/api/admin/products';
+        ? API_URL + "/admin/products/" + editingProduct.id 
+        : API_URL + "/admin/products";
       
       const method = editingProduct ? 'PUT' : 'POST';
       

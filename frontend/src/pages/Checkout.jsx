@@ -1,3 +1,4 @@
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:5001/api';
 import React, { useState, useEffect } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements, PaymentElement, useStripe, useElements } from '@stripe/react-stripe-js';
@@ -106,7 +107,7 @@ const Checkout = () => {
             setLoadingSecret(true);
             setSecretError('');
             try {
-                const response = await fetch('http://127.0.0.1:5001/api/payment/create-payment-intent', {
+                const response = await fetch(API_URL + '/payment/create-payment-intent', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
