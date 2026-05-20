@@ -1,4 +1,7 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:5001/api';
+let API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:5001/api';
+if (API_URL && !API_URL.endsWith('/api')) {
+  API_URL = API_URL + '/api';
+}
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
