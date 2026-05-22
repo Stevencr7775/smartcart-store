@@ -14,20 +14,6 @@
     "stock": 84
   },
   {
-    "name": "Rice",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 479,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/rice/thumbnail.webp",
-    "description": "High-quality rice, a staple for various cuisines and a versatile base for many dishes.",
-    "specifications": {
-      "Rating": "3.18 / 5",
-      "Stock": "In Stock",
-      "Warranty": "6 months warranty"
-    },
-    "stock": 59
-  },
-  {
     "name": "Realme X",
     "category": "Electronics",
     "brand": "Realme",
@@ -266,20 +252,6 @@
     "stock": 1
   },
   {
-    "name": "Kiwi",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 199,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp",
-    "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
-    "specifications": {
-      "Rating": "4.93 / 5",
-      "Stock": "In Stock",
-      "Warranty": "6 months warranty"
-    },
-    "stock": 99
-  },
-  {
     "name": "iPhone 6",
     "category": "Electronics",
     "brand": "Apple",
@@ -362,20 +334,6 @@
       "Warranty": "1 year warranty"
     },
     "stock": 59
-  },
-  {
-    "name": "Honey Jar",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 559,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/thumbnail.webp",
-    "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
-    "specifications": {
-      "Rating": "3.97 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 month warranty"
-    },
-    "stock": 34
   },
   {
     "name": "Girl Summer Dress",
@@ -474,20 +432,6 @@
       "Warranty": "6 months warranty"
     },
     "stock": 1
-  },
-  {
-    "name": "Dog Food",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 879,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp",
-    "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
-    "specifications": {
-      "Rating": "4.55 / 5",
-      "Stock": "In Stock",
-      "Warranty": "No warranty"
-    },
-    "stock": 71
   },
   {
     "name": "Tartan Dress",
@@ -602,20 +546,6 @@
     "stock": 40
   },
   {
-    "name": "Mulberry",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 399,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/mulberry/thumbnail.webp",
-    "description": "Sweet and juicy mulberries, perfect for snacking or adding to desserts and cereals.",
-    "specifications": {
-      "Rating": "4.95 / 5",
-      "Stock": "In Stock",
-      "Warranty": "2 year warranty"
-    },
-    "stock": 99
-  },
-  {
     "name": "Longines Master Collection",
     "category": "Gifts",
     "brand": "Longines",
@@ -628,20 +558,6 @@
       "Warranty": "1 week warranty"
     },
     "stock": 100
-  },
-  {
-    "name": "Red Onions",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 159,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/red-onions/thumbnail.webp",
-    "description": "Flavorful and aromatic red onions, perfect for adding depth to your savory dishes.",
-    "specifications": {
-      "Rating": "4.2 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 month warranty"
-    },
-    "stock": 82
   },
   {
     "name": "Selfie Stick Monopod",
@@ -672,20 +588,6 @@
     "stock": 90
   },
   {
-    "name": "Lemon",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 63,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/lemon/thumbnail.webp",
-    "description": "Zesty and tangy lemons, versatile for cooking, baking, or making refreshing beverages.",
-    "specifications": {
-      "Rating": "3.53 / 5",
-      "Stock": "In Stock",
-      "Warranty": "No warranty"
-    },
-    "stock": 31
-  },
-  {
     "name": "Beats Flex Wireless Earphones",
     "category": "Electronics",
     "brand": "Beats",
@@ -698,20 +600,6 @@
       "Warranty": "1 year warranty"
     },
     "stock": 50
-  },
-  {
-    "name": "Green Bell Pepper",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 103,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/thumbnail.webp",
-    "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
-    "specifications": {
-      "Rating": "3.25 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 month warranty"
-    },
-    "stock": 33
   },
   {
     "name": "iPad Mini 2021 Starlight",
@@ -784,20 +672,6 @@
     "stock": 21
   },
   {
-    "name": "Ice Cream",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 439,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp",
-    "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
-    "specifications": {
-      "Rating": "3.39 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 month warranty"
-    },
-    "stock": 27
-  },
-  {
     "name": "Boxed Blender",
     "category": "Home Decor",
     "brand": "Premium",
@@ -824,20 +698,6 @@
       "Warranty": "1 year warranty"
     },
     "stock": 40
-  },
-  {
-    "name": "Green Chili Pepper",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 79,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/thumbnail.webp",
-    "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
-    "specifications": {
-      "Rating": "3.66 / 5",
-      "Stock": "Low Stock",
-      "Warranty": "2 year warranty"
-    },
-    "stock": 3
   },
   {
     "name": "Annibale Colombo Sofa",
@@ -1006,20 +866,6 @@
       "Warranty": "1 year warranty"
     },
     "stock": 88
-  },
-  {
-    "name": "Cooking Oil",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 399,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp",
-    "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
-    "specifications": {
-      "Rating": "4.8 / 5",
-      "Stock": "In Stock",
-      "Warranty": "Lifetime warranty"
-    },
-    "stock": 10
   },
   {
     "name": "Cricket Bat",
@@ -1260,34 +1106,6 @@
     "stock": 85
   },
   {
-    "name": "Cucumber",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 119,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp",
-    "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
-    "specifications": {
-      "Rating": "4.07 / 5",
-      "Stock": "In Stock",
-      "Warranty": "2 year warranty"
-    },
-    "stock": 84
-  },
-  {
-    "name": "Eggs",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 239,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/eggs/thumbnail.webp",
-    "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
-    "specifications": {
-      "Rating": "2.53 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 week warranty"
-    },
-    "stock": 9
-  },
-  {
     "name": "Sportbike Motorcycle",
     "category": "Sports",
     "brand": "SpeedMaster",
@@ -1328,34 +1146,6 @@
       "Warranty": "3 months warranty"
     },
     "stock": 25
-  },
-  {
-    "name": "Juice",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 319,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp",
-    "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
-    "specifications": {
-      "Rating": "3.94 / 5",
-      "Stock": "In Stock",
-      "Warranty": "6 months warranty"
-    },
-    "stock": 50
-  },
-  {
-    "name": "Tissue Paper Box",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 199,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/tissue-paper-box/thumbnail.webp",
-    "description": "Convenient tissue paper box for everyday use, providing soft and absorbent tissues.",
-    "specifications": {
-      "Rating": "2.69 / 5",
-      "Stock": "In Stock",
-      "Warranty": "No warranty"
-    },
-    "stock": 86
   },
   {
     "name": "Football",
@@ -1512,20 +1302,6 @@
     "stock": 50
   },
   {
-    "name": "Fish Steak",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 1199,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/thumbnail.webp",
-    "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
-    "specifications": {
-      "Rating": "3.78 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 month warranty"
-    },
-    "stock": 74
-  },
-  {
     "name": "300 Touring",
     "category": "Sports",
     "brand": "Chrysler",
@@ -1580,20 +1356,6 @@
       "Warranty": "3 year warranty"
     },
     "stock": 91
-  },
-  {
-    "name": "Beef Steak",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 1039,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/thumbnail.webp",
-    "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
-    "specifications": {
-      "Rating": "4.47 / 5",
-      "Stock": "In Stock",
-      "Warranty": "3 year warranty"
-    },
-    "stock": 86
   },
   {
     "name": "Marni Red & Black Suit",
@@ -1708,20 +1470,6 @@
     "stock": 94
   },
   {
-    "name": "Apple",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 159,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp",
-    "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
-    "specifications": {
-      "Rating": "4.19 / 5",
-      "Stock": "In Stock",
-      "Warranty": "3 year warranty"
-    },
-    "stock": 8
-  },
-  {
     "name": "Feather Shuttlecock",
     "category": "Sports",
     "brand": "Premium",
@@ -1790,20 +1538,6 @@
       "Warranty": "1 week warranty"
     },
     "stock": 99
-  },
-  {
-    "name": "Nescafe Coffee",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 639,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/nescafe-coffee/thumbnail.webp",
-    "description": "Quality coffee from Nescafe, available in various blends for a rich and satisfying cup.",
-    "specifications": {
-      "Rating": "4.82 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 year warranty"
-    },
-    "stock": 57
   },
   {
     "name": "Red Tongs",
@@ -1890,20 +1624,6 @@
     "stock": 93
   },
   {
-    "name": "Milk",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 279,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/milk/thumbnail.webp",
-    "description": "Fresh and nutritious milk, a staple for various recipes and daily consumption.",
-    "specifications": {
-      "Rating": "2.61 / 5",
-      "Stock": "In Stock",
-      "Warranty": "3 year warranty"
-    },
-    "stock": 27
-  },
-  {
     "name": "Nike Air Jordan 1 Red And Black",
     "category": "Clothing",
     "brand": "Nike",
@@ -1974,20 +1694,6 @@
     "stock": 13
   },
   {
-    "name": "Chicken Meat",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 799,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp",
-    "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
-    "specifications": {
-      "Rating": "3.19 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 year warranty"
-    },
-    "stock": 97
-  },
-  {
     "name": "Iron Golf",
     "category": "Sports",
     "brand": "Premium",
@@ -2000,20 +1706,6 @@
       "Warranty": "3 months warranty"
     },
     "stock": 90
-  },
-  {
-    "name": "Strawberry",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 319,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/strawberry/thumbnail.webp",
-    "description": "Sweet and succulent strawberries, great for snacking, desserts, or blending into smoothies.",
-    "specifications": {
-      "Rating": "3.08 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 week warranty"
-    },
-    "stock": 46
   },
   {
     "name": "Plant Pot",
@@ -2366,20 +2058,6 @@
     "stock": 54
   },
   {
-    "name": "Potatoes",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 183,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/potatoes/thumbnail.webp",
-    "description": "Versatile and starchy potatoes, great for roasting, mashing, or as a side dish.",
-    "specifications": {
-      "Rating": "4.81 / 5",
-      "Stock": "In Stock",
-      "Warranty": "3 year warranty"
-    },
-    "stock": 13
-  },
-  {
     "name": "Tennis Ball",
     "category": "Sports",
     "brand": "Premium",
@@ -2394,20 +2072,6 @@
     "stock": 28
   },
   {
-    "name": "Protein Powder",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 1599,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/protein-powder/thumbnail.webp",
-    "description": "Nutrient-packed protein powder, ideal for supplementing your diet with essential proteins.",
-    "specifications": {
-      "Rating": "4.18 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 week warranty"
-    },
-    "stock": 80
-  },
-  {
     "name": "Sports Sneakers Off White & Red",
     "category": "Clothing",
     "brand": "Off White",
@@ -2420,20 +2084,6 @@
       "Warranty": "1 week warranty"
     },
     "stock": 17
-  },
-  {
-    "name": "Water",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 79,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/water/thumbnail.webp",
-    "description": "Pure and refreshing bottled water, essential for staying hydrated throughout the day.",
-    "specifications": {
-      "Rating": "4.96 / 5",
-      "Stock": "In Stock",
-      "Warranty": "3 months warranty"
-    },
-    "stock": 53
   },
   {
     "name": "Heshe Women's Leather Bag",
@@ -2518,20 +2168,6 @@
       "Warranty": "2 year warranty"
     },
     "stock": 30
-  },
-  {
-    "name": "Cat Food",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 719,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp",
-    "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
-    "specifications": {
-      "Rating": "3.13 / 5",
-      "Stock": "In Stock",
-      "Warranty": "1 year warranty"
-    },
-    "stock": 46
   },
   {
     "name": "White Faux Leather Backpack",
@@ -2646,20 +2282,6 @@
     "stock": 88
   },
   {
-    "name": "Soft Drinks",
-    "category": "Health",
-    "brand": "Premium",
-    "price": 159,
-    "imageUrl": "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/thumbnail.webp",
-    "description": "Assorted soft drinks in various flavors, perfect for refreshing beverages.",
-    "specifications": {
-      "Rating": "4.75 / 5",
-      "Stock": "In Stock",
-      "Warranty": "6 months warranty"
-    },
-    "stock": 53
-  },
-  {
     "name": "Oppo F19 Pro Plus",
     "category": "Electronics",
     "brand": "Oppo",
@@ -2714,5 +2336,154 @@
       "Warranty": "1 year warranty"
     },
     "stock": 75
+  },
+  {
+    "name": "Dolo 650mg Paracetamol",
+    "category": "Health",
+    "brand": "Micro Labs",
+    "price": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=600&fit=crop",
+    "description": "Effective relief from fever and mild-to-moderate pain. Trusted brand recommended by medical professionals.",
+    "specifications": {
+      "Rating": "4.8 / 5",
+      "Stock": "In Stock",
+      "Dosage": "650mg",
+      "Quantity": "15 Tablets"
+    },
+    "stock": 100
+  },
+  {
+    "name": "Ibuprofen Pain Reliever 400mg",
+    "category": "Health",
+    "brand": "Advil",
+    "price": 95,
+    "imageUrl": "https://images.unsplash.com/photo-1607619056574-7b8f304b3c86?w=600&h=600&fit=crop",
+    "description": "Provides fast and effective relief from headaches, muscle aches, backaches, and minor arthritis pain.",
+    "specifications": {
+      "Rating": "4.6 / 5",
+      "Stock": "In Stock",
+      "Dosage": "400mg",
+      "Quantity": "20 Tablets"
+    },
+    "stock": 85
+  },
+  {
+    "name": "Cetirizine 10mg Allergy Relief",
+    "category": "Health",
+    "brand": "Zyrtec",
+    "price": 65,
+    "imageUrl": "https://images.unsplash.com/photo-1550572017-edd951b55104?w=600&h=600&fit=crop",
+    "description": "Provides 24-hour relief from common allergy symptoms, including sneezing, runny nose, and itchy eyes.",
+    "specifications": {
+      "Rating": "4.7 / 5",
+      "Stock": "In Stock",
+      "Dosage": "10mg",
+      "Quantity": "10 Tablets"
+    },
+    "stock": 120
+  },
+  {
+    "name": "Daily Multivitamin Supplements",
+    "category": "Health",
+    "brand": "Revital H",
+    "price": 299,
+    "imageUrl": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=600&h=600&fit=crop",
+    "description": "A balanced formulation of vitamins, minerals, and ginseng to support daily energy, stamina, and immune function.",
+    "specifications": {
+      "Rating": "4.9 / 5",
+      "Stock": "In Stock",
+      "Quantity": "60 Capsules"
+    },
+    "stock": 75
+  },
+  {
+    "name": "Benadryl Cough & Cold Syrup",
+    "category": "Health",
+    "brand": "Johnson & Johnson",
+    "price": 120,
+    "imageUrl": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&h=600&fit=crop",
+    "description": "Soothes throat irritation and provides fast relief from wet and dry cough, and chest congestion.",
+    "specifications": {
+      "Rating": "4.5 / 5",
+      "Stock": "In Stock",
+      "Volume": "100ml",
+      "Flavor": "Mint Cherry"
+    },
+    "stock": 90
+  },
+  {
+    "name": "Amoxicillin 500mg Capsules",
+    "category": "Health",
+    "brand": "Abbott",
+    "price": 150,
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=600&fit=crop",
+    "description": "Common penicillin-class antibiotic used to treat bacterial infections. Consult doctor before consumption.",
+    "specifications": {
+      "Rating": "4.4 / 5",
+      "Stock": "In Stock",
+      "Dosage": "500mg",
+      "Quantity": "10 Capsules"
+    },
+    "stock": 60
+  },
+  {
+    "name": "Eno Instant Antacid Powder",
+    "category": "Health",
+    "brand": "GSK",
+    "price": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1550572017-edd951b55104?w=600&h=600&fit=crop",
+    "description": "Gets to work in 6 seconds to neutralize acid and relieve heartburn, indigestion, and stomach upset.",
+    "specifications": {
+      "Rating": "4.8 / 5",
+      "Stock": "In Stock",
+      "Quantity": "5g Sachet",
+      "Flavor": "Lemon"
+    },
+    "stock": 300
+  },
+  {
+    "name": "Omron Digital Thermometer",
+    "category": "Health",
+    "brand": "Omron",
+    "price": 249,
+    "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&h=600&fit=crop",
+    "description": "High-precision digital thermometer for safe, quick, and accurate temperature measurement for all ages.",
+    "specifications": {
+      "Rating": "4.7 / 5",
+      "Stock": "In Stock",
+      "Warranty": "1 Year",
+      "Display": "LCD Screen"
+    },
+    "stock": 45
+  },
+  {
+    "name": "Electral WHO Formulated ORS",
+    "category": "Health",
+    "brand": "FDC",
+    "price": 22,
+    "imageUrl": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&h=600&fit=crop",
+    "description": "WHO-recommended oral rehydration salts for restoring electrolytes and water balance during dehydration.",
+    "specifications": {
+      "Rating": "4.9 / 5",
+      "Stock": "In Stock",
+      "Weight": "21g Sachet",
+      "Flavor": "Orange"
+    },
+    "stock": 150
+  },
+  {
+    "name": "Dettol Complete First Aid Kit",
+    "category": "Health",
+    "brand": "Reckitt",
+    "price": 499,
+    "imageUrl": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=600&h=600&fit=crop",
+    "description": "Portable first aid kit fully equipped with antiseptic liquid, antiseptic cream, band-aids, medical tapes, and scissors.",
+    "specifications": {
+      "Rating": "4.9 / 5",
+      "Stock": "In Stock",
+      "Contains": "25 Medical Items",
+      "Case": "Water-resistant Pouch"
+    },
+    "stock": 30
   }
 ]
