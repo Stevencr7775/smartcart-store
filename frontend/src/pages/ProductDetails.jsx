@@ -114,10 +114,10 @@ const ProductDetails = () => {
                 <p style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1rem' }}>₹{product.price.toFixed(2)}</p>
                 
                 <div style={{ marginBottom: '2rem' }}>
-                  {product.countInStock > 0 ? (
+                  {(product.countInStock > 0 || product.stock > 0) ? (
                     <span style={{ color: '#4CAF50', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                       <span style={{ width: '8px', height: '8px', background: '#4CAF50', borderRadius: '50%' }}></span>
-                      In Stock ({product.countInStock} available)
+                      In Stock ({product.countInStock ?? product.stock} available)
                     </span>
                   ) : (
                     <span style={{ color: '#f44336', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -131,17 +131,39 @@ const ProductDetails = () => {
                   {product.description}
                 </p>
                 
-                <button 
-                  className="btn btn-primary" 
-                  disabled={product.countInStock === 0}
-                  style={{ padding: '1rem 3rem', fontSize: '1.2rem', alignSelf: 'flex-start' }}
-                  onClick={() => {
-                      addToCart(product);
-                      toast.success('Item added to cart!');
-                  }}
-                >
-                    {product.countInStock > 0 ? 'Add to Cart' : 'Out of Stock'}
-                </button>
+                <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
+                  <button 
+                    className="btn btn-primary" 
+                    disabled={!(product.countInStock > 0 || product.stock > 0)}
+                    style={{ padding: '1rem 2rem', fontSize: '1.2rem', cursor: (product.countInStock > 0 || product.stock > 0) ? 'pointer' : 'not-allowed' }}
+                    onClick={() => {
+                        addToCart(product);
+                        toast.success('Item added to cart!');
+                    }}
+                  >
+                      {(product.countInStock > 0 || product.stock > 0) ? 'Add to Cart' : 'Out of Stock'}
+                  </button>
+                  <button 
+                    className="btn btn-secondary"
+                    disabled={!(product.countInStock > 0 || product.stock > 0)}
+                    style={{ padding: '1rem 2rem', fontSize: '1.2rem', background: '#ff9800', color: 'white', border: 'none', cursor: (product.countInStock > 0 || product.stock > 0) ? 'pointer' : 'not-allowed' }}
+                    onClick={() => {
+                        addToCart(product);
+                        navigate('/checkout');
+                    }}
+                  >
+                      Buy Now
+                  </button>
+                  <button 
+                    className="btn btn-outline"
+                    style={{ padding: '1rem 2rem', fontSize: '1.2rem', background: 'transparent', border: '2px solid var(--color-primary)', color: 'var(--color-primary)', cursor: 'pointer' }}
+                    onClick={() => {
+                        toast.success('Added to Wish List!');
+                    }}
+                  >
+                      Save to Wish List
+                  </button>
+                </div>
             </div>
         </div>
 
