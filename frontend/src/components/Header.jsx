@@ -54,6 +54,7 @@ const Header = () => {
             {theme === 'light' ? '🌙' : '☀️'}
           </button>
           <Link to="/categories" className="nav-link">Shop</Link>
+          <button className="nav-link" style={{ color: 'red', background: 'transparent', border: 'none', cursor: 'pointer', padding: 0 }}>New Button</button>
           
           <Link to="/about" className="nav-link">About</Link>
           <Link to="/cart" className="nav-link cart-link">
