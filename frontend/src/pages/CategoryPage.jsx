@@ -94,6 +94,7 @@ const CategoryPage = () => {
               onChange={(e) => setSortBy(e.target.value)} 
               style={{ width: '100%', marginTop: '0.5rem', padding: '0.5rem', borderRadius: '4px', border: '1px solid var(--glass-border)', background: 'var(--bg-color)', color: 'var(--color-text)' }}
             >
+              <option value="relevance">Relevance</option>
               <option value="newest">Newest Arrivals</option>
               <option value="price_asc">Price: Low to High</option>
               <option value="price_desc">Price: High to Low</option>

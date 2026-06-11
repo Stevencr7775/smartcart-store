@@ -21,6 +21,7 @@ const getProducts = async (req, res) => {
     if (sortBy === 'price_asc') sort.price = 1;
     else if (sortBy === 'price_desc') sort.price = -1;
     else if (sortBy === 'newest') sort.createdAt = -1;
+    else if (sortBy === 'relevance') { /* default mongo order, no explicit sort */ }
 
     const products = await Product.find(query).sort(sort);
     res.json(products);
